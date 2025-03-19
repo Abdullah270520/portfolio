@@ -136,7 +136,44 @@ section{
     color: rgb(228, 197, 197);
     font-weight: 600;
 }
-    
+  
+/******projects*****/
+#Projects{
+    background: linear-gradient(to right,  #333 50%, rgb(161, 0, 0))
+}
+
+#Projects h1{
+    color: #b5b4b4;
+    display: flex;
+  justify-content: center;  /* Center horizontally */
+  align-items: center;      /* Center vertically */
+  
+}
+#Projects p{ 
+  display: flex;
+  justify-content: center;  /* Center horizontally */
+  align-items: center;      /* Center vertically */
+ 
+}
+
+
+.download-button {
+    background-color: #162a5d;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 10px;
+    align-self: center;
+}
+
+.download-button:hover {
+    background-color:#000022;
+}
+
+
+
 /******Education****/
 #Education{
     background: linear-gradient(to right,#2f2c2c,#310808 100%  );
