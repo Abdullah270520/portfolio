@@ -88,6 +88,10 @@ section{
 
 }
 
+.signin:hover{
+    color: #000;
+}
+
 
 /*******about*******/
 
@@ -138,18 +142,18 @@ section{
 }
   
 /******projects*****/
-#Projects{
-    background: linear-gradient(to right,  #333 50%, rgb(161, 0, 0))
+#projects{
+    background: #201e2a;
 }
 
-#Projects h1{
-    color: #b5b4b4;
+#projects h1{
+    color: #d3d1d1;
     display: flex;
   justify-content: center;  /* Center horizontally */
   align-items: center;      /* Center vertically */
   
 }
-#Projects p{ 
+#projects p{ 
   display: flex;
   justify-content: center;  /* Center horizontally */
   align-items: center;      /* Center vertically */
@@ -202,6 +206,17 @@ section{
     color: rgb(255, 244, 244);
 
 }
+
+/****resume****/
+
+#resume{
+    background: #19191e;
+}
+
+#resume h1{
+    color: #cbcbcb;
+}
+
 /*****contact*****/
 
 #Contact{
